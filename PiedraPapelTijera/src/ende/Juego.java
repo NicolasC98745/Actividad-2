@@ -33,29 +33,29 @@ public class Juego
                 exitosJugador2 = ++p2.exitos;
                 
             }
-            else if((opcion_JUGADOR1.equals("papel"))&&(opcion_JUGADOR2.equals("piedra")))
+            else if((opcionJugador1.equals("papel"))&&(opcionJugador2.equals("piedra")))
             {
-            	EXITOS_jugador1 = ++p1.éxitos;
+            	exitosJugador1 = ++p1.exitos;
                 System.out.println("Jugador 1 GANA");
             }
-            else if((opcion_JUGADOR1.equals("piedra"))&&(opcion_JUGADOR2.equals("tijeras")))
+            else if((opcionJugador1.equals("piedra"))&&(opcionJugador2.equals("tijeras")))
             {
-            	EXITOS_jugador1 = ++p1.éxitos;
+            	exitosJugador1 = ++p1.exitos;
                 System.out.println("Jugador 1 GANA");
             }
-            else if((opcion_JUGADOR1.equals("tijeras"))&&(opcion_JUGADOR2.equals("piedra")))
+            else if((opcionJugador1.equals("tijeras"))&&(opcionJugador2.equals("piedra")))
             {
-            	EXITOS_jugador2 = ++p2.éxitos;
+            	exitosJugador2= ++p1.exitos;
                 System.out.println("Jugador 2 GANA");
             }
-            else if((opcion_JUGADOR1.equals("tijeras"))&&(opcion_JUGADOR2.equals("papel")))
+            else if((opcionJugador1.equals("tijeras"))&&(opcionJugador2.equals("papel")))
             {
-            	EXITOS_jugador1 = ++p1.éxitos;
+            	exitosJugador1 = ++p1.exitos;
                 System.out.println("Jugador 1 GANA");
             }
-            else if((opcion_JUGADOR1.equals("papel"))&&(opcion_JUGADOR2.equals("tijeras")))
+            else if((opcionJugador1.equals("papel"))&&(opcionJugador2.equals("tijeras")))
             {
-            	EXITOS_jugador2 = ++p2.éxitos;
+            	exitosJugador1 = ++p1.exitos;
                 System.out.println("Jugador 2 GANA");
             }
             if(opcion_JUGADOR1==opcion_JUGADOR2)
