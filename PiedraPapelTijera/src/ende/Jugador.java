@@ -28,17 +28,17 @@ public class Jugador{
        }
        return opcion;
    }
+   
    public String opcionAlAzar() {
 		// TODO Apéndice de método generado automáticamente
-		return null;
 	}
-	public void setÃ‰xitos() 
+	public void setExitos() 
    {
-       Ã©xitos++;
+       exitos++;
    }
-   public int getÃ‰xitos() 
+   public int geteExitos() 
    {
-       return(Ã©xitos);
+       return(exitos);
    }
    
    
