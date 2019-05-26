@@ -22,10 +22,10 @@ public class Juego
         {
             System.out.println("***** Ronda: " + rondasJugadas+" *********************\n");
             System.out.println("Numero de empates: "+ empates + "\n");
-            opcion_JUGADOR1=p1.opcion_al_azar();
-            System.out.println("Jugador 1: " + opcion_JUGADOR1+"\t Jugador 1 - Partidas ganadas: " + EXITOS_jugador1);
-            opcion_JUGADOR2 = p2.opcion_al_azar();
-            System.out.println("Jugador 2: " + opcion_JUGADOR2+"\t Jugador 2 - Partidas ganadas: " + EXITOS_jugador2);
+            opcionJugador1 = p1.opcionAlAzar();
+            System.out.println("Jugador 1: " + opcionJugador1+"\t Jugador 1 - Partidas ganadas: " + exitosJugador1);
+            opcionJugador2 = p2.opcionAlAzar();
+            System.out.println("Jugador 2: " + opcionJugador2+"\t Jugador 2 - Partidas ganadas: " + exitosJugador2);
             
             if((opcion_JUGADOR1.equals("piedra"))&&(opcion_JUGADOR2.equals("papel")))
             {
@@ -98,7 +98,11 @@ class Jugador{
         }
         return opcion;
     }
-    public void setÃ‰xitos() 
+    public String opcionAlAzar() {
+		// TODO Apéndice de método generado automáticamente
+		return null;
+	}
+	public void setÃ‰xitos() 
     {
         Ã©xitos++;
     }
