@@ -1,9 +1,8 @@
-package ende;
-
 /**
  * Simula el juego de Piedra, Papel o tijera
  */
 
+package ende;
 
 public class Juego 
 {
@@ -12,9 +11,9 @@ public class Juego
         Jugador p1=new Jugador();
         Jugador p2=new Jugador();
         boolean fin_de_juego=false;  
-        Integer Rondasjugadas = 0;    // Número de rondas jugadas
-        Integer EXITOS_jugador1=p1.éxitos;
-        Integer EXITOS_jugador2=p2.éxitos;
+        Integer rondasJugadas = 0;    // Número de rondas jugadas
+        Integer exitosJugador1=p1.éxitos;
+        Integer exitosJugador2=p2.éxitos;
         Integer EmPaTeS = 0;
         String opcion_JUGADOR1, opcion_JUGADOR2;
         
