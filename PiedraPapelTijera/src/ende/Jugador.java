@@ -12,7 +12,7 @@ public class Jugador{
 	int exitos;      // número de partidas ganadas
 	int winTotal;
 	   
-   public String opcion_al_azar()
+   public String opcionAlAzar()
    {
        String opcion="";
        Integer c = (int)(Math.random()*3);
