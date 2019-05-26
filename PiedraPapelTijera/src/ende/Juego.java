@@ -63,13 +63,14 @@ public class Juego
             	empates++;
                 System.out.println("\n\t\t\t Empate \n");
             }
-            if((p1.éxitos>=3)||(p2.éxitos>=3))
+            if((p1.exitos >=03)||(p2.exitos >=3))
             {
-            	fin_de_juego=true;
+            	finDeJuego=true;
                 System.out.println("FIN DEL JUEGO!!");
             }
             System.out.println();
-        } while(fin_de_juego!=true);
+            
+        } while(finDeJuego !=true);
     }
 }
 /**
@@ -77,7 +78,6 @@ public class Juego
  */
 class Jugador{
    
-    public static final Integer exitos = null;
 	/**
      * Escoge piedra, papel o tijera al azar
      */
