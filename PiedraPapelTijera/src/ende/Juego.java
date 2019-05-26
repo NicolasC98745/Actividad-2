@@ -21,7 +21,7 @@ public class Juego
         do
         {
             System.out.println("***** Ronda: " + rondasJugadas+" *********************\n");
-            System.out.println("Numero de empates: "+ EmPaTeS + "\n");
+            System.out.println("Numero de empates: "+ empates + "\n");
             opcion_JUGADOR1=p1.opcion_al_azar();
             System.out.println("Jugador 1: " + opcion_JUGADOR1+"\t Jugador 1 - Partidas ganadas: " + EXITOS_jugador1);
             opcion_JUGADOR2 = p2.opcion_al_azar();
